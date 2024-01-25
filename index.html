@@ -7,21 +7,27 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="font-sans bg-gray-100">
-  <div class="flex flex-col items-center justify-center min-h-screen text-center">
 
+    <!-- Header -->
+    <div class="bg-green-500 p-4 flex justify-between items-center">
+        <h1 class="text-white text-2xl font-bold">Plant Analyzer</h1>
+        <button class="bg-white text-green-500 px-4 py-2 rounded">More Info</button>
+    </div>
 
-    <div class="text-7xl font-bold text-gray-800 mb-20">PLANT ANALYZER</div>
+    <!-- Hero -->
+  <div class="flex flex-col items-center justify-center min-h-screen text-center fade-in-screen">
+    <div class="text-6xl font-bold text-gray-800 mb-20">LAI <div class="text-green-700 text-7xl">Predictor</div></div>    
 
     <div class="flex-row">
     <div class="container">
-        <img src="image1.png" alt="People working on a plant" class="rounded-lg shadow-lg mb-11 m-auto w-64">
+        <img src="web-assets/image1.png" alt="People working on a plant" class="rounded-lg shadow-lg mb-11 m-auto w-64">
     </div>
 
 
     <div class="flex flex-row">
 
         <div class="container">
-            <img src="step1.png" alt="People working on a plant" class="rounded-lg shadow-lg w-64">
+            <img src="web-assets/step1.png" alt="People working on a plant" class="rounded-lg shadow-lg w-64">
         </div>
 
         <div class="bg-green-300 p-10 border-green-300 rounded-lg align-middle text-center w-3/4 -ml-4">
@@ -35,12 +41,30 @@
         </div>
         
         <div class="container">
-            <img src="step3.png" alt="People working on a plant" class="rounded-lg shadow-lg ml-20 w-64">
+            <img src="web-assets/step3.png" alt="People working on a plant" class="rounded-lg shadow-lg ml-20 w-64">
         </div>
 
     </div>
 
     </div>
-  </div>    
+  </div>
+  
+  <!-- More Information -->
+  <div class="bg-gray-200 p-4 justify-between items-center">
+    <div class="text-6xl font-bold text-gray-800 mb-20 mt-20 ml-56">More <div class="text-green-700 text-7xl">Information</div></div>
+    <div class= "m-auto flex ">
+        <img src="web-assets/stepUno.png" alt="People working on a plant" class="rounded-lg shadow-lg w-64 ml-96">
+        <h1 class="text-3xl ml-20 mt-20"><b>Step 1</b> <br> Take an image of your plant top-down</h1>
+    </div>
+    <div class= "m-auto flex ">
+        <h1 class="text-3xl mt-20 ml-96"><b>Step 2</b> <br> Upload your image to the plant analysis</h1>
+        <img src="web-assets/stepDos.png" alt="People working on a plant" class="rounded-lg shadow-lg w-64 ml-20">
+    </div>
+    <div class= "m-auto flex ">
+        <img src="web-assets/stepTres.png" alt="People working on a plant" class="rounded-lg shadow-lg w-64 ml-96">
+        <h1 class="text-3xl ml-20 mt-20"><b>Step 3</b> <br> Recieve your results!</h1>
+    </div>
+    <div class="w-40 h-36"></div>
+  </div>
 </body>
 </html>
